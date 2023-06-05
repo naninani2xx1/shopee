@@ -178,6 +178,8 @@
 .header__notify .header__notify-list {
     list-style: none;
     padding-left: 0;
+    overflow-y: scroll;
+    max-height: 250px;
 }
 
 .header__notify .header__notify-item {
