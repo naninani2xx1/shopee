@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/UvxBwdbDX_jBgmm-vnPpP-sL7bCQSxF0JfB2DRdVtORK3-sn2OvPbW6911xcV2nQrrQ" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/css/all.min.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Shopee</title>
+</head>
+<body>
+    <div id="main">
+        <!-- Header app -->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <!-- Nav Left -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-has-qr header__navbar-item--separate">
+                            <span class="header__navbar-title"> Vào cửa hàng trên ứng dụng Shopee</span>
+                            <!-- Qr code -->
+                            <div class="header__qr">
+                                <img class="header__qr-img" src="./assets/img/QR_code.png" alt="qr_code" srcset="">
+                                <div class="header__nav-apps">
+                                    <a href="">
+                                        <img class="header__navbar-app-link" src="./assets/img/GooglePlay.png" alt="GooglePlay">
+                                    </a>
+                                    <a href="">
+                                        <img class="header__navbar-app-link" src="./assets/img/Appstore.png" alt="Appstore">
+                                    </a>
+                                </div>
+                           </div>
+                           <!--End QR  -->
+                           
+                        </li>
+                        <li class="header__navbar-item">
+                           <span class="header__navbar-title"> Kết nối</span>
+                        </li>
+                        <li class="header__navbar-item header__navbar-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </li>
+                        <li class="header__navbar-item header__navbar-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </li>
+                    </ul>
+                    
+                    <!--Nav Right  -->
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar--has-notify">
+                            <a href="" class= "header__navbar-item-link">
+                                <i class="fa-sharp fa-solid fa-bell"></i>
+                                <span class="header__navbar-title"> Thông báo</span>
+                            </a>
+                            <!-- Show noitification -->
+                            <div class="header__notify">
+                                <p class="header__notify-title">Thông báo mới nhận</p>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--has-read">
+                                        <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="Ảnh thông báo" class="header__notify-img">
+                                        <div class="header__notify-body-item">
+                                            <span class="header__notify-body-title">Xác thưc nguồn gốc chính hãng của các sản phẩm từ Công ty Sơn tùng</span>
+                                            <span class="header__notify-body-subtitle">Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa?</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--has-read">
+                                        <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="Ảnh thông báo" class="header__notify-img">
+                                        <div class="header__notify-body-item">
+                                            <span class="header__notify-body-title">Xác thưc nguồn gốc chính hãng của các sản phẩm từ Công ty Sơn tùng</span>
+                                            <span class="header__notify-body-subtitle">Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa?</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--not-read">
+                                        <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="Ảnh thông báo" class="header__notify-img">
+                                        <div class="header__notify-body-item">
+                                            <span class="header__notify-body-title">Xác thưc nguồn gốc chính hãng của các sản phẩm từ Công ty Sơn tùng</span>
+                                            <span class="header__notify-body-subtitle">Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa?</span>
+                                        </div>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--not-read">
+                                        <img src="https://zsuntz.github.io/assets/img/notify1.png" alt="Ảnh thông báo" class="header__notify-img">
+                                        <div class="header__notify-body-item">
+                                            <span class="header__notify-body-title">Xác thưc nguồn gốc chính hãng của các sản phẩm từ Công ty Sơn tùng</span>
+                                            <span class="header__notify-body-subtitle">Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa? Bạn đã thử sản phẩm của tùng chưa?</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <footter class="header__notify-footer">
+                                    <h4 class="header__notify-footer-title">Xem tất cả</h4>
+                                </footter>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href=""class= "header__navbar-item-link">
+                                <i class="far fa-question-circle"></i>
+                                <span class="header__navbar-title"> Trợ giúp</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">
+                            <a class="header__navbar-item-link" href="">
+                                <span class="header__navbar-title"> Đăng ký</span>
+                            </a>
+                        </li>
+                        <li class="header__navbar-item header__navbar-item--strong">
+                            <a class="header__navbar-item-link" href="">
+                                <span class="header__navbar-title"> Đăng nhập</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__second">
+                    <img class="header__logo-app" src="./assets/img/logo.png" alt="Logo">
+                    <form action="" class="header__form-search">
+                        <div class="header__second-input-search">
+                            <input type="text" class="form-input-search" placeholder="Nhập để tìm kiếm sản phẩm">
+                            <div class="header__second-search-history">
+                                <p class="second-search-history__title">
+                                    Lịch sử tìm kiếm
+                                </p>
+                                <ul class="search-history__list">
+                                    <li class="search-history-item">Mỹ phẩm</li>
+                                    <li class="search-history-item">Dày dép</li>
+                                    <li class="search-history-item">Quần lót</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__option-show">
+                            <span class="header__option-title">Trong shop</span>
+                            <i class="fas fa-chevron-down"></i>
+                            <a href="" class="btn-search">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </form>
+                    <!-- Cart icon -->
+                    <div class="header__cart">
+                        <div class="header__cart-icon">
+                            <i class="fas fa-cart-shopping"></i>
+                            <div class="header__cart-quantity">3</div>
+                            
+                                <!-- cart list -->
+                        <div class="header__cart-list">
+                            <h2 class="header__cart-list-title">
+                                Sản phẩm đã thêm
+                            </h2>
+                            <ul class="cart-list">
+                                <li class="cart-item">
+                                    <img src="https://img.abaha.vn/photos/resized/320x/83-1597318354-myphamohui-lgvina.png" alt="Item cart" class="cart-item-img">
+                                    <div class="header__cart-item-infor">
+                                        <div class="header__cart-item-head">
+                                            <h3 class="header__cart-name">Bộ cấp nước se khít lỗ chân lông Sum37 Warer-full Set 5p</h3>
+                                            <div class="header__cart-price-wrap">
+                                               <span class="header__cart-price">450.000đ</span>
+                                               <span class="header__cart-operator">x</span>
+                                               <span class="header__cart-quantity--in-cart">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">Phân loại: bạc</span>
+                                            <a href="" class="header__cart-item-remove-link">
+                                                Xoá
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cart-item">
+                                    <img src="https://img.abaha.vn/photos/resized/320x/83-1597318354-myphamohui-lgvina.png" alt="Item cart" class="cart-item-img">
+                                    <div class="header__cart-item-infor">
+                                        <div class="header__cart-item-head">
+                                            <h3 class="header__cart-name">Bộ cấp nước se khítk lỗ chân lông Sum37 Warer-full Set 5p</h3>
+                                            <div class="header__cart-price-wrap">
+                                               <span class="header__cart-price">450.000đ</span>
+                                               <span class="header__cart-operator">x</span>
+                                               <span class="header__cart-quantity--in-cart">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">Phân loại: bạc</span>
+                                            <a href="" class="header__cart-item-remove-link">
+                                                Xoá
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="cart-item">
+                                    <img src="https://img.abaha.vn/photos/resized/320x/83-1597318354-myphamohui-lgvina.png" alt="Item cart" class="cart-item-img">
+                                    <div class="header__cart-item-infor">
+                                        <div class="header__cart-item-head">
+                                            <h3 class="header__cart-name">Bộ cấp nước se khít lỗ chân lông Sum37 Warer-full Set 5p</h3>
+                                            <div class="header__cart-price-wrap">
+                                               <span class="header__cart-price">450.000đ</span>
+                                               <span class="header__cart-operator">x</span>
+                                               <span class="header__cart-quantity--in-cart">2</span>
+                                            </div>
+                                        </div>
+                                        <div class="header__cart-item-body">
+                                            <span class="header__cart-item-description">Phân loại: bạc</span>
+                                            <a href="" class="header__cart-item-remove-link">
+                                                Xoá
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a class="btn btn-view-cart btn--primary">
+                                Xem giỏ hàng
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- Body -->
+        <div class="app__container">
+            <div class="grid">
+                <div class="grid__row app__content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                  <i class="category__heading-icon fas fa-list"></i>  Danh mục
+                                </h3>
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link">Quần áo</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Thiết bị - điện tử</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Dày dép </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="grid__column-10">
+                        <!-- filter -->
+                        <div class="home-filter">
+                            <span class="home-filter__label">Sắp xép theo</span>
+                            <button class="home-filter__btn btn">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-chevron-down"></i>
+                                <!-- select list -->
+                                <ul class="select-input-list">
+                                    <li class="select-input-item">
+                                        <a href="" class="select-input__link">Thấp đến cao</a>    
+                                    </li>
+                                    <li class="select-input-item">
+                                        <a href="" class="select-input__link">Cao đến thấp</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-current">1</span> 
+                                    /14
+                                </span>
+
+                                <div class="home-filter__page-control">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fas fa-angle-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- product item -->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item__img" style="background-image: url(https://down-vn.img.susercontent.com/file/e6e30eaf35a3982dd4c73a258d0df1b3);"></div>
+                                        <h4 class="home-product-item__name">
+                                            BST 50 - Áo thun nam nữ form rộng vải dày mịn logo cá tính cách điệu
+                                        </h4>
+                                        <div class="home-product-item-price">
+                                            <span class="home-product-item__price-old">
+                                                1.200.000đ
+                                            </span>
+                                            <span class="home-product-item__price-sale">
+                                                900.000đ
+                                            </span>
+                                        </div>
+                                        <div class="home-product-item__action">
+                                            <span class="home-product-item__like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__origin">
+                                            <span class="home-product-item__brand">Whoo</span>
+                                            <span class="home-product-item__origin-name">Hy Lạp</span>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="home-product-item__favourite-icon fas fa-check"></i>
+                                            <span class="home-product-item__favourite-label"> Yêu thích</span>
+                                        </div>
+                                        <div class="home-product-item__sale-off">
+                                            <span class="home-product-item__sale-percent">10%</span>
+                                            <span class="home-product-item__sale-label">Giảm</span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+
+        <footer class="footer__app">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-3">
+                        <h3 class="footer__app-heading">Chăm sóc khách hàng</h3>
+                        <ul class="footer__app-list">
+                            <li class="footer__app-item">Trung tâm trợ giúp</li>
+                            <li class="footer__app-item">F8-Shop-Mail</li>
+                            <li class="footer__app-item">Hướng dẫn mua hàng</li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3">
+                        <h3 class="footer__app-heading">Giới thiệu</h3>
+                        <ul class="footer__app-list">
+                            <li class="footer__app-item">Trung tâm trợ giúp</li>
+                            <li class="footer__app-item">F8-Shop-Mail</li>
+                            <li class="footer__app-item">Hướng dẫn mua hàng</li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3">
+                        <h3 class="footer__app-heading">Theo dõi</h3>
+                        <ul class="footer__app-list">
+                            <li class="footer__app-item">Trung tâm trợ giúp</li>
+                            <li class="footer__app-item">F8-Shop-Mail</li>
+                            <li class="footer__app-item">Hướng dẫn mua hàng</li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-3">
+                        <h3 class="footer__app-heading">Vào cửa hàng trong ứng dụng</h3>
+                        <ul class="footer__app-list">
+                            <li class="footer__app-item">Trung tâm trợ giúp</li>
+                            <li class="footer__app-item">F8-Shop-Mail</li>
+                            <li class="footer__app-item">Hướng dẫn mua hàng</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
